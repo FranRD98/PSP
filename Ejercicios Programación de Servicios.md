@@ -6,7 +6,7 @@
 ### EJERCICIO 1.
 **Crear documento en github desarrollando los siguientes puntos, poner ejemplos y código básico:**
   
-* **Clase:** Decimos que un objeto es una instancia de una clase. Por ejemplo el taxi matrícula BFG-7452 es una instancia de la clase Taxi. Varios objetos (p.ej.
+* **Clase:** Las clases son plantillas para la creación de objetos y en ellas se encuentra la información basica de cada objeto. Por ejemplo, el taxi matrícula BFG-7452 es una instancia de la clase Taxi. 
 * **Objeto:**
 * **Sobrecarga de métodos:**
 * **Herencia:**
