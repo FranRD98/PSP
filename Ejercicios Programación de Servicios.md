@@ -28,7 +28,7 @@ public class Puerta{
 		this.material=material;
 	}
 
-	//Getters y setters
+	//GETTERS Y SETTERS
 	public String getNombre() {
 		return nombre;
 	}
