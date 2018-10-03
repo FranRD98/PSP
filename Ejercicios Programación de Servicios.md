@@ -53,6 +53,8 @@ public class Escritor{
 ```
 * **Herencia:** La herencia es un mecanismo que permite la definición de una clase a partir de la definición de otra ya existente. La herencia permite compartir automáticamente métodos y datos entre clases, subclases y objetos.  Un ejemplo seria el objeto humano, puede tener dos subclases hombre y mujer (ambos son humanos).
 
+![alt text](https://jarroba.com/wp-content/uploads/2014/04/PolimorfismoFutbol-diag.jpg "Herencia")
+
 * **Polimorfismo:** Es como la herencia pero esta dispone de diversas clases.
 
 * **Interface:** Una interfaz es un conjunto de metodos. En las interfaces se especifica qué se debe hacer pero no su implementación. Por ejemplo una interfaz de Audio incluiriamos dentro (MP3,FLAC,WAV...)
