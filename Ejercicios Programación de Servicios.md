@@ -1,11 +1,5 @@
 # PROGRAMACIÓN DE SERVICIOS 2DAM - IES N1 XÀBIA
-
-### TABLA DE CONTENIDOS
-* [EJERCICIO 1 (28/09/2018)](#1.-EJERCICIO-1.)
-
-### EJERCICIO 1.
-**Crear documento en github desarrollando los siguientes puntos, poner ejemplos y código básico:**
-  
+ 
 * **Clase:** Una clase es una plantilla que define la forma de un objeto. Especifica los datos y el código que operará en esos datos. Java usa una especificación de clase para construir objetos. Los objetos son instancias de una clase. Por lo tanto, una clase es esencialmente un conjunto de planes que especifican cómo construir un objeto.
 ```java
 public class Personaje{
