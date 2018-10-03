@@ -15,6 +15,34 @@ public class Personaje{
 ```
 * **Objeto:** Un objeto es un fichero en Java que contiene una serie de caracteristicas y un comportamiento, por ejemplo una puerta tiene color,forma,dimensiones,material,etc(caracteristicas) tambien puede abrise, cerrarse,etc(comportamiento).
 
+```java
+public class Puerta{
+
+	//ATRIBUTOS
+	private String nombre;
+	private String material;
+	
+	//CONSTRUCTORES
+	public Puerta(String nombre, string material){
+		this.nombre=nombre;
+		this.material=material;
+	}
+
+	//Getters y setters
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	//TOSTRING
+	public String toString() {
+		return "---INFORMACIÓN DE LA PUERTA---\n"+"Nombre:"+ nombre + "\nMaterial:" + material;
+	}
+}
+```
+
 * **Sobrecarga de métodos:** La sobrecarga de métodos es la creación de varios métodos con el mismo nombre pero con diferente lista de tipos de parámetros. Java utiliza el número y tipo de parámetros para seleccionar cuál definición de método ejecutar. 
 
 * **Herencia:** La herencia es un mecanismo que permite la definición de una clase a partir de la definición de otra ya existente. La herencia permite compartir automáticamente métodos y datos entre clases, subclases y objetos.  Un ejemplo seria el objeto humano, puede tener dos subclases hombre y mujer (ambos son humanos).
