@@ -55,6 +55,99 @@ public class Escritor{
 
 ![alt text](https://jarroba.com/wp-content/uploads/2014/04/PolimorfismoFutbol-diag.jpg "Herencia")
 
+## Clase Padre 
+```java
+public abstract class SeleccionFutbol {
+
+	protected int id;
+	protected String nombre;
+	protected String apellidos;
+	protected int edad;
+
+	// constructores, getter y setter
+
+	public void viajar() {
+	     System.out.println("Viajar (Clase Padre)");
+	}
+
+	public void concentrarse() {
+	     System.out.println("Concentrarse (Clase Padre)");
+	}
+
+	// IMPORTANTE -> METODO ABSTRACTO => no se implementa en la clase abstracta pero si en la clases hijas
+	public abstract void entrenamiento();
+
+	public void partidoFutbol() {
+	     System.out.println("Asiste al Partido de Fútbol (Clase Padre)");
+	}
+}
+```
+## Clase Futbolista
+```java
+public class Futbolista extends SeleccionFutbol {
+
+   private int dorsal;
+   private String demarcacion;
+
+   // constructor, getter y setter
+
+   @Override
+   public void entrenamiento() {
+      System.out.println("Realiza un entrenamiento (Clase Futbolista)");
+   }
+
+   @Override
+   public void partidoFutbol() {
+      System.out.println("Juega un Partido (Clase Futbolista)");
+   }
+
+   public void entrevista() {
+      System.out.println("Da una Entrevista");
+   }
+}
+```
+## clase Entrenador
+```java
+public class Entrenador extends SeleccionFutbol {
+
+   private int idFederacion;
+
+   // constructor, getter y setter
+	
+   @Override
+   public void entrenamiento() {
+      System.out.println("Dirige un entrenamiento (Clase Entrenador)");
+   }
+
+   @Override
+   public void partidoFutbol() {
+      System.out.println("Dirige un Partido (Clase Entrenador)");
+   }
+
+   public void planificarEntrenamiento() {
+      System.out.println("Planificar un Entrenamiento");
+   }
+}
+```
+## Clase Masajista
+```java
+public class Masajista extends SeleccionFutbol {
+
+   private String titulacion;
+   private int aniosExperiencia;
+
+   // constructor, getter y setter
+	
+   @Override
+   public void entrenamiento() {
+      System.out.println("Da asistencia en el entrenamiento (Clase Masajista)");
+   }
+
+   public void darMasaje() {
+      System.out.println("Da un Masaje");
+   }
+}
+```
 * **Polimorfismo:** Es como la herencia pero esta dispone de diversas clases.
 
 * **Interface:** Una interfaz es un conjunto de metodos. En las interfaces se especifica qué se debe hacer pero no su implementación. Por ejemplo una interfaz de Audio incluiriamos dentro (MP3,FLAC,WAV...)
