@@ -152,6 +152,8 @@ public class Masajista extends SeleccionFutbol {
    }
 }
 ```
-* **Polimorfismo:** Es como la herencia pero esta dispone de diversas clases.
+## Polimorfismo:
+Es como la herencia pero esta dispone de diversas clases.
 
-* **Interface:** Una interfaz es un conjunto de metodos. En las interfaces se especifica qué se debe hacer pero no su implementación. Por ejemplo una interfaz de Audio incluiriamos dentro (MP3,FLAC,WAV...)
+## Interface:
+Una interfaz es un conjunto de metodos. En las interfaces se especifica qué se debe hacer pero no su implementación. Por ejemplo una interfaz de Audio incluiriamos dentro (MP3,FLAC,WAV...)
