@@ -1,12 +1,14 @@
 # PROGRAMACIÓN DE SERVICIOS 2DAM - IES N1 XÀBIA
  
-* **Clase:** Una clase es una plantilla que define la forma de un objeto. Especifica los datos y el código que operará en esos datos. Java usa una especificación de clase para construir objetos. Los objetos son instancias de una clase. Por lo tanto, una clase es esencialmente un conjunto de planes que especifican cómo construir un objeto.
+## Clase:
+Una clase es una plantilla que define la forma de un objeto. Especifica los datos y el código que operará en esos datos. Java usa una especificación de clase para construir objetos. Los objetos son instancias de una clase. Por lo tanto, una clase es esencialmente un conjunto de planes que especifican cómo construir un objeto.
 ```java
 public class Personaje{
 
 }
 ```
-* **Objeto:** Un objeto es un fichero en Java que contiene una serie de caracteristicas y un comportamiento, por ejemplo una puerta tiene color,forma,dimensiones,material,etc(caracteristicas) tambien puede abrise, cerrarse,etc(comportamiento).
+## Objeto: 
+Un objeto es un fichero en Java que contiene una serie de caracteristicas y un comportamiento, por ejemplo una puerta tiene color,forma,dimensiones,material,etc(caracteristicas) tambien puede abrise, cerrarse,etc(comportamiento).
 ```java
 public class Puerta{
 
@@ -34,7 +36,8 @@ public class Puerta{
 	}
 }
 ```
-* **Sobrecarga de métodos:** La sobrecarga de métodos es la creación de varios métodos con el mismo nombre pero con diferente lista de tipos de parámetros. Java utiliza el número y tipo de parámetros para seleccionar cuál definición de método ejecutar. 
+## Sobrecarga de métodos:
+La sobrecarga de métodos es la creación de varios métodos con el mismo nombre pero con diferente lista de tipos de parámetros. Java utiliza el número y tipo de parámetros para seleccionar cuál definición de método ejecutar. 
 ```java
 public class Escritor{
 	public void Escribe(){
@@ -51,11 +54,12 @@ public class Escritor{
 	}
 }
 ```
-* **Herencia:** La herencia es un mecanismo que permite la definición de una clase a partir de la definición de otra ya existente. La herencia permite compartir automáticamente métodos y datos entre clases, subclases y objetos.  Un ejemplo seria el objeto humano, puede tener dos subclases hombre y mujer (ambos son humanos).
+## Herencia:
+La herencia es un mecanismo que permite la definición de una clase a partir de la definición de otra ya existente. La herencia permite compartir automáticamente métodos y datos entre clases, subclases y objetos.  Un ejemplo seria el objeto humano, puede tener dos subclases hombre y mujer (ambos son humanos).
 
 ![alt text](https://jarroba.com/wp-content/uploads/2014/04/PolimorfismoFutbol-diag.jpg "Herencia")
 
-## Clase Padre 
+* Clase Padre 
 ```java
 public abstract class SeleccionFutbol {
 
@@ -82,7 +86,7 @@ public abstract class SeleccionFutbol {
 	}
 }
 ```
-## Clase Futbolista
+* Clase Futbolista
 ```java
 public class Futbolista extends SeleccionFutbol {
 
@@ -106,7 +110,7 @@ public class Futbolista extends SeleccionFutbol {
    }
 }
 ```
-## clase Entrenador
+* Clase Entrenador
 ```java
 public class Entrenador extends SeleccionFutbol {
 
@@ -129,7 +133,7 @@ public class Entrenador extends SeleccionFutbol {
    }
 }
 ```
-## Clase Masajista
+* Clase Masajista
 ```java
 public class Masajista extends SeleccionFutbol {
 
