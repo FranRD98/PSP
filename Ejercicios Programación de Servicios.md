@@ -157,3 +157,110 @@ Es como la herencia pero esta dispone de diversas clases.
 
 ## Interface:
 Una interfaz es un conjunto de metodos. En las interfaces se especifica qué se debe hacer pero no su implementación. Por ejemplo una interfaz de Audio incluiriamos dentro (MP3,FLAC,WAV...)
+
+## EJERCICIO Y EJEMPLO DE HERENCIA
+![alt text](https://i.imgur.com/sgtgYp7.jpg "2oEjemploHerencia")
+
+* Clase Empleado
+```java
+public class Empleado {
+   private String nombre;	
+      //CONSTRUCTORES
+         Empleado(String nombre){
+	    this.nombre=nombre;
+	 }
+	 
+	 Empleado(){
+	 
+	 }
+		
+	 //SETTERS Y GETTERS
+	 public String getNombre() {
+	    return nombre;
+	 }
+	
+	 public void setNombre(String nombre) {
+	   this.nombre = nombre;
+	 }
+
+	 //TOSTRING
+	 public String toString() {
+	   return "Empleado "+nombre;
+	 }		
+}```
+
+* Clase Operario
+```java
+public class Operario extends Empleado{
+   //CONSTRUCTORES
+   Operario(String nombre){
+      super(nombre);
+   }
+	
+   Operario(){
+      super();
+   }
+	
+   //TOSTRING
+   public String toString() {
+      return super.toString()+" -> Operario";
+   }	
+}```
+
+* Clase Directivo
+```java
+public class Directivo extends Empleado{
+   //CONSTRUCTORES
+   Directivo(String nombre){
+      super(nombre);
+   }
+	
+   Directivo(){
+      super();
+   }
+	
+   //TOSTRING
+   public String toString() {
+      return super.toString() +" -> Directivo";
+   }
+}```
+
+* Clase Oficial
+```java
+public class Oficial extends Operario{
+   //CONSTRUCTORES
+   Oficial(String nombre){
+      super(nombre);
+   }
+	
+   Oficial(){
+      super();
+   }
+	
+   //TOSTRING
+   public String toString() {
+      return super.toString() +" -> Oficial";
+   }	
+}```
+
+* Clase Tecnico
+```java
+public class Tecnico extends Operario{
+   //CONSTRUCTORES
+   Tecnico(String nombre){
+      super(nombre);
+   }
+	
+   Tecnico(){
+      super();
+   }
+	
+   //TOSTRING
+   public String toString() {
+      return super.toString() +" -> Tecnico";
+   }	
+}```
+
+* RESULTADO
+
+![alt text](https://i.imgur.com/JqUUcfJ.png "3oEjemploHerencia")
