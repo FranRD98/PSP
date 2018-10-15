@@ -187,7 +187,8 @@ public class Empleado {
 	 public String toString() {
 	   return "Empleado "+nombre;
 	 }		
-}```
+}
+```
 
 * Clase Operario
 ```java
@@ -205,7 +206,8 @@ public class Operario extends Empleado{
    public String toString() {
       return super.toString()+" -> Operario";
    }	
-}```
+}
+```
 
 * Clase Directivo
 ```java
@@ -223,7 +225,8 @@ public class Directivo extends Empleado{
    public String toString() {
       return super.toString() +" -> Directivo";
    }
-}```
+}
+```
 
 * Clase Oficial
 ```java
@@ -241,7 +244,8 @@ public class Oficial extends Operario{
    public String toString() {
       return super.toString() +" -> Oficial";
    }	
-}```
+}
+```
 
 * Clase Tecnico
 ```java
@@ -259,8 +263,9 @@ public class Tecnico extends Operario{
    public String toString() {
       return super.toString() +" -> Tecnico";
    }	
-}```
+}
+```
 
 * RESULTADO
+![alt text](https://i.imgur.com/JqUUcfJ.png "ResultadoHerencia")
 
-![alt text](https://i.imgur.com/JqUUcfJ.png "3oEjemploHerencia")
