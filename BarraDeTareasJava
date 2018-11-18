@@ -153,6 +153,4 @@ public class Barra extends JFrame {
 			}
 		});
 	}
-}
-
-```
+}```
