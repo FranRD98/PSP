@@ -1,4 +1,4 @@
-# BARRA DE TARES SENCILLA CON WINDOWS BUILDER
+# BARRA DE TAREAS SENCILLA CON WINDOWS BUILDER
 
 ![alt text](https://i.imgur.com/hDufHpm.png "BarraDeTareas")
 
