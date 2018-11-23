@@ -1,6 +1,8 @@
 ## EJERCICIO BARRA DE TAREAS MEJORADA EN JAVA
 ##### En este repositorio dispones del proyecto para descargar.
 
+![alt text](https://i.imgur.com/mmuZFQ3.png "BarraDeTareasMejorada")
+
 ```java
 import java.awt.EventQueue;
 import javax.swing.JFrame;
