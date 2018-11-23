@@ -120,3 +120,7 @@ public class Main {
 	}
 }
 ```
+
+## RESULTADO
+![alt text](https://i.imgur.com/JqUUcfJ.png "ResultadoHerencia")
+
