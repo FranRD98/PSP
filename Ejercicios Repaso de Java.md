@@ -36,6 +36,36 @@ public class Puerta{
 	}
 }
 ```
+## Encapsulación:
+El encapsulamiento en Java permite que los datos de un objeto solo puedan ser modificados mediante las operaciones definidas en ese objeto.
+```java
+public class Escritor{
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+}
+```
+## Instanciación e inicialización de Objetos:
+Instancia es todo objeto que deriva de otro, por ejemplo:
+```java
+public class Lampara {
+	private String color;
+	private boolean encendida;
+ 
+	public Lampara(String color) {
+		this.color = color;
+	}
+	public Lampara() {
+		this("Roja");
+	} 
+}
+ 
+class LamparaCreator {
+	public static void main(String[] args) { 
+		Lampara lampara = new Lampara();
+	}
+}
+```
 ## Sobrecarga de métodos:
 La sobrecarga de métodos es la creación de varios métodos con el mismo nombre pero con diferente lista de tipos de parámetros. Java utiliza el número y tipo de parámetros para seleccionar cuál definición de método ejecutar. 
 ```java
