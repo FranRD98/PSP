@@ -34,10 +34,10 @@ public class Servidor {
 			e.printStackTrace();
 		}				
 	}
-}```java
+}```
 
 ## Clase Cliente:
-```java
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -65,7 +65,7 @@ public class Cliente {
 			e.printStackTrace();
 		}
 	}
-}```
+}
 
 
 
