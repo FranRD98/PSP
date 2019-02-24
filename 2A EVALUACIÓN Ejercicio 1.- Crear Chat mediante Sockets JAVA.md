@@ -3,9 +3,8 @@
 Este dispone de 2 clases (Servidor y Cliente)
 
 ## Clase Servidor:
-```java
 
-import java.io.DataInputStream;
+```import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -65,7 +64,7 @@ public class Cliente {
 			e.printStackTrace();
 		}
 	}
-}
+}```
 
 INTENTO 2
 
@@ -73,7 +72,7 @@ Este dispone de 3 clases (Servidor, Cliente y Main)
 
 ## Clase Servidor:
 
-import java.io.IOException;
+```import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -107,12 +106,12 @@ public class Servidor {
 	}
 	
 	private static List<Cliente> clientes = new ArrayList<Cliente>();
-}
+}```
 
 
 ## Clase Cliente:
 
-import java.io.IOException;
+```import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -164,19 +163,18 @@ public class Cliente extends Thread{
 	PrintWriter getOut() {
 		return out;
 	}
-}
+}```
 
 
 ## Clase Main:
 
 
-public class Main {
+```public class Main {
 
 	public static void main(String[] args) {
 		Servidor.run();
 	}
-
-}
+}```
 
 
 
