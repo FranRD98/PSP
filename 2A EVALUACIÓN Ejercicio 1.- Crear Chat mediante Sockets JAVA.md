@@ -3,7 +3,7 @@
 Este dispone de 2 clases (Servidor y Cliente)
 
 ## Clase Servidor:
-''java
+```java
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -34,10 +34,10 @@ public class Servidor {
 			e.printStackTrace();
 		}				
 	}
-}''java
+}```
 
 ## Clase Cliente:
-
+```java
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -65,7 +65,7 @@ public class Cliente {
 			e.printStackTrace();
 		}
 	}
-}'''
+}```
 
 
 
