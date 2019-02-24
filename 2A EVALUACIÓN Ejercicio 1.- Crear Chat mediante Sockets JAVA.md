@@ -34,7 +34,7 @@ public class Servidor {
 			e.printStackTrace();
 		}				
 	}
-}```java
+}´´´
 
 ## Clase Cliente:
 
